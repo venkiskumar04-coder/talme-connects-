@@ -1,0 +1,126 @@
+Talme Connects photo prompt pack
+
+1. Hero garden photo
+Photorealistic lifestyle photo of happy Indian grandparents with a young companion in a garden, warm natural sunlight, candid smiles, affectionate and relaxed body language, elegant casual clothing, lush greenery in background, soft depth of field, wholesome family feeling, realistic skin tones, high detail, natural composition, no text, no watermark
+
+2. Tea-time together
+Photorealistic lifestyle photo of Indian grandparents with a young companion sharing tea together at home or in a garden sit-out, warm natural sunlight, candid smiles, relaxed body language, biscuits and tea on table, elegant casual clothing, cozy and affectionate family feeling, realistic skin tones, shallow depth of field, high detail, no text, no watermark
+
+3. Phone help
+Photorealistic lifestyle photo of an Indian grandmother and a young companion using a smartphone together, warm natural light, candid interaction, patient teaching moment, realistic skin tones, soft home background, high detail, natural composition, no text, no watermark
+
+4. Walking in park
+Photorealistic lifestyle photo of Indian grandparents walking in a green park with a young companion, warm natural sunlight, relaxed smiles, affectionate and supportive body language, realistic skin tones, candid documentary style, soft depth of field, high detail, no text, no watermark
+
+5. Shopping together
+Photorealistic lifestyle photo of Indian grandparents with a young companion shopping together, carrying vegetables and daily essentials, warm natural light, candid smiles, wholesome family feeling, realistic skin tones, high detail, natural composition, no text, no watermark
+
+6. Community event
+Photorealistic lifestyle photo of Indian grandparents and a young companion at a cheerful community event, warm lighting, candid smiles, festive but elegant atmosphere, natural body language, realistic skin tones, high detail, no text, no watermark
+
+7. Reading together
+Photorealistic lifestyle photo of Indian grandparents and a young companion reading together indoors, warm daylight, candid smiles, cozy home environment, realistic skin tones, soft depth of field, high detail, no text, no watermark
+
+Suggested filenames for generated images:
+assets/hero-photo.jpg
+assets/service-tea-time.jpg
+assets/service-phone-help.jpg
+assets/service-walking.jpg
+assets/service-shopping.jpg
+assets/service-community.jpg
+assets/gallery-reading.jpg
+
+Illustrated gallery prompt pack with a whimsical hand-painted animated film feel
+
+Style note for all prompts below:
+Use a soft hand-painted animated illustration aesthetic with watercolor-gouache textures, cozy environmental storytelling, gentle expressive faces, warm natural light, delicate linework, and a magical everyday feeling. Avoid photorealism, avoid 3D render look, avoid harsh contrast, avoid watermark, avoid extra text.
+
+Suggested filenames for the illustrated gallery set:
+assets/story-at-home.png
+assets/story-digital-help.png
+assets/story-outdoors.png
+assets/story-errands.png
+assets/story-festive-moments.png
+assets/story-quiet-company.png
+
+1. Diwali craft afternoon
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: warm hand-painted illustration of a young Indian male Talme companion in a white polo spending a festive Diwali craft afternoon with an elderly Indian couple at home, rangoli art on the table, diyas, marigold decor, handmade garlands, cozy shelves, joyful expressions, premium storytelling composition
+Style/medium: whimsical hand-painted animated illustration, watercolor-gouache texture, storybook warmth
+Composition/framing: vertical composition, three characters clearly visible, art table in foreground
+Lighting/mood: golden indoor festive light, intimate, affectionate, celebratory
+Color palette: warm amber, marigold, sage, cream, muted terracotta
+Constraints: no watermark, no extra text, no distorted hands
+
+2. Market morning together
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: warm illustrated scene of an elderly Indian couple and a young Talme companion shopping at a neighborhood fruit market, friendly vendor interaction, fresh produce, lively but elegant Indian street market atmosphere, companionship and trust
+Style/medium: whimsical hand-painted animated illustration, storybook realism, watercolor texture
+Composition/framing: vertical composition with fruit crates and people framing the trio
+Lighting/mood: soft morning sunlight, cheerful, community-oriented
+Constraints: no watermark, no random signage text, no distorted faces
+
+3. Evening tea at home
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: elegant illustrated living room scene of a young Talme companion sharing tea with an elderly Indian couple, warm home interior, bookshelves, soft lamps, tea service on a table, relaxed conversation, emotional comfort
+Style/medium: gentle hand-painted animated illustration, watercolor and soft pencil detail, cozy storybook feel
+Composition/framing: vertical composition, tea table centered, trio arranged naturally around it
+Lighting/mood: sunset glow through the window, calm, gentle, intimate
+Constraints: no watermark, no visible brand text beyond subtle Talme shirt logo if needed
+
+4. Festive family portrait
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: premium illustrated portrait of a young Indian Talme companion standing with an elderly Indian couple during Diwali celebrations at home, diyas, rangoli, flowers, warm smiles, polished and elegant family-style composition
+Style/medium: warm hand-painted animated portrait illustration, elegant storybook styling
+Composition/framing: full-height vertical portrait, three figures centered
+Lighting/mood: festive golden light, proud, warm, celebratory
+Constraints: no watermark, no newspaper text, no distorted clothing
+
+5. Diwali evening outdoors
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: illustrated outdoor evening scene of a Talme companion celebrating Diwali with an elderly Indian couple outside a decorated home, diyas glowing, sparklers, lanterns, sweets on a side table, safe and joyful family atmosphere
+Style/medium: detailed hand-painted animated evening illustration, festive storybook atmosphere
+Composition/framing: vertical composition with house and lights as backdrop
+Lighting/mood: rich evening glow, festive, cozy, magical
+Constraints: no watermark, no dangerous fireworks depiction, no extra text
+
+6. Walk in the park
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: charming illustrated park walk with a young Talme companion accompanying an elderly Indian couple on a tree-lined path, gentle conversation, relaxed body language, beautiful greenery, companionship and trust
+Style/medium: soft hand-painted animated nature illustration, watercolor storybook feeling
+Composition/framing: vertical composition, trio walking toward camera with park depth behind
+Lighting/mood: bright morning light, fresh, uplifting, peaceful
+Constraints: no watermark, no extra characters stealing focus
+
+7. Smartphone support on the sofa
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: intimate illustrated home scene of an elderly Indian couple sitting close to a young Talme companion while he helps them with a smartphone, warm living room, books, plants, affectionate expressions, sense of safety and patience
+Style/medium: cozy hand-painted animated illustration, warm storybook interior, soft watercolor finish
+Composition/framing: vertical composition with the phone interaction as focal point
+Lighting/mood: warm lamp light, close, caring, reassuring
+Constraints: no watermark, no screen text, no distorted fingers
+
+8. Gentle care at home
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: touching illustrated home scene where an elderly Indian woman gently adjusts her husband's glasses while a young Talme companion stands supportively nearby, bright welcoming room, calm domestic warmth, trust and care
+Style/medium: tender hand-painted animated illustration with clean linework and watercolor softness
+Composition/framing: vertical composition, seated grandfather with standing figures beside him
+Lighting/mood: soft daytime window light, tender, respectful
+Constraints: no watermark, no extra text
+
+9. Carrom evening
+Use case: illustration-story
+Asset type: homepage gallery image
+Primary request: polished illustrated indoor scene of a Talme companion playing carrom with an elderly Indian couple in a cozy home, laughter, engaged expressions, classic Indian board game atmosphere, companionship through activity
+Style/medium: polished hand-painted animated illustration, playful storybook warmth, watercolor-gouache texture
+Composition/framing: vertical composition, carrom board centered in foreground
+Lighting/mood: warm evening light, lively, welcoming, joyful
+Constraints: no watermark, no extra text, no distorted game pieces

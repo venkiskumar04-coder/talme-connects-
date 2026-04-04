@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultation Form | Talme Connects</title>
+  <meta
+    name="description"
+    content="Share a few details about your loved one so Talme Connects can begin a thoughtful companionship consultation."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="subpage-body consultation-body">
+  <header class="site-header">
+    <div class="brand-lockup">
+      <h1 class="brand-mark">Talme</h1>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="events.html">Events</a>
+      <a href="faqs.html">FAQs</a>
+      <a href="careers.html">Careers</a>
+      <a class="active" href="consultation.html">Consultation</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="consultation-page">
+    <section class="consultation-shell">
+      <div class="consultation-intro">
+        <div class="consultation-intro-card">
+          <p class="eyebrow">Talme Consultation Form</p>
+          <h2>Tell us about the older adult you would like us to support.</h2>
+          <p>
+            This intake form helps our team understand the senior's daily rhythm, family context,
+            and companionship needs before we recommend the right next step.
+          </p>
+          <ul class="consultation-highlights">
+            <li>We will review the phone number and details you share here.</li>
+            <li>Our team may call to understand preferences, comfort, and routine.</li>
+            <li>We then suggest a thoughtful companionship plan for your family.</li>
+          </ul>
+        </div>
+        <p class="consultation-required">* Indicates a required question</p>
+        <p class="consultation-sheet-note">Paste your deployed Google Apps Script web app URL into this form's <code>data-sheet-endpoint</code> attribute to start saving submissions to Google Sheets.</p>
+        <p class="consultation-success" data-consultation-success hidden></p>
+      </div>
+
+      <form
+        class="consultation-form"
+        data-consultation-form
+        data-sheet-endpoint="PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE"
+      >
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="full-name">Your Full Name <span>*</span></label>
+          <input id="full-name" name="full-name" type="text" required placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="contact-number">Contact Number <span>*</span></label>
+          <input id="contact-number" name="contact-number" type="tel" required placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="email-address">Email Address <span>*</span></label>
+          <input id="email-address" name="email-address" type="email" required placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="senior-name">Name of the Senior You Want to Nominate <span>*</span></label>
+          <input id="senior-name" name="senior-name" type="text" required placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="senior-age">Age <span>*</span></label>
+          <input id="senior-age" name="senior-age" type="number" min="1" required placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <p class="consultation-label">Does the Senior Live Alone? <span>*</span></p>
+          <label class="consultation-choice">
+            <input type="radio" name="lives-alone" value="Yes" required>
+            <span>Yes</span>
+          </label>
+          <label class="consultation-choice">
+            <input type="radio" name="lives-alone" value="No" required>
+            <span>No</span>
+          </label>
+        </section>
+
+        <section class="consultation-field-card">
+          <p class="consultation-label">Does the Senior Have Any of the Following? <span>*</span></p>
+          <label class="consultation-check">
+            <input type="checkbox" name="conditions" value="Dementia">
+            <span>Dementia</span>
+          </label>
+          <label class="consultation-check">
+            <input type="checkbox" name="conditions" value="Alzheimers">
+            <span>Alzheimers</span>
+          </label>
+          <label class="consultation-check">
+            <input type="checkbox" name="conditions" value="Parkinsons">
+            <span>Parkinsons</span>
+          </label>
+          <label class="consultation-check">
+            <input type="checkbox" name="conditions" value="Other neurological condition">
+            <span>Other neurological condition</span>
+          </label>
+          <label class="consultation-check">
+            <input type="checkbox" name="conditions" value="None">
+            <span>None</span>
+          </label>
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="relationship">How Do You Know This Senior? <span>*</span></label>
+          <textarea id="relationship" name="relationship" rows="3" required placeholder="Your answer"></textarea>
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="residence">Area of Residence of the Senior <span>*</span></label>
+          <input id="residence" name="residence" type="text" required placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="senior-contact">Contact Number of the Senior</label>
+          <input id="senior-contact" name="senior-contact" type="tel" placeholder="Your answer">
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="support-reason">Why Do You Think They Would Need a Talme Companion? <span>*</span></label>
+          <textarea id="support-reason" name="support-reason" rows="4" required placeholder="Your answer"></textarea>
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="family-details">Do They Have Sons and Daughters? If Yes, Please Provide Details <span>*</span></label>
+          <textarea id="family-details" name="family-details" rows="4" required placeholder="Your answer"></textarea>
+        </section>
+
+        <section class="consultation-field-card">
+          <label class="consultation-label" for="extra-details">Anything Else You Want to Tell Us About This Senior? <span>*</span></label>
+          <textarea id="extra-details" name="extra-details" rows="4" required placeholder="Your answer"></textarea>
+        </section>
+
+        <section class="consultation-field-card consultation-field-card--compact">
+          <label class="consultation-inline-check">
+            <input type="checkbox" name="response-copy">
+            <span>Send me a copy of my responses.</span>
+          </label>
+        </section>
+
+        <div class="consultation-actions">
+          <button class="consultation-submit" type="submit">Submit</button>
+          <button class="consultation-clear" type="reset">Clear form</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <div class="footer-top">
+      <h2>Follow us along our journey</h2>
+      <div class="social-links" aria-label="Social links">
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle cx="17.5" cy="6.5" r="1"></circle>
+          </svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="9" width="4" height="11"></rect>
+            <circle cx="6" cy="6" r="2"></circle>
+            <path d="M11 20v-6.5c0-2.2 1.4-3.5 3.2-3.5 1.9 0 2.8 1.2 2.8 3.4V20h4v-7.3c0-4.1-2.2-6-5.2-6-2.4 0-3.5 1.3-4.1 2.2V9H11v11z"></path>
+          </svg>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21.6 7.2c-.2-1-.9-1.7-1.8-2-1.6-.4-7.8-.4-7.8-.4s-6.2 0-7.8.4c-.9.2-1.6 1-1.8 2C2 8.9 2 12 2 12s0 3.1.4 4.8c.2 1 .9 1.7 1.8 2 1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4c.9-.2 1.6-1 1.8-2 .4-1.7.4-4.8.4-4.8s0-3.1-.4-4.8z"></path>
+            <path d="M10 15.5V8.5l6 3.5-6 3.5z" fill="#f8f4ea"></path>
+          </svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1z"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="footer-brand">
+        <p class="brand-kicker">Talme Connects</p>
+        <h3 class="footer-logo">Talme</h3>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact number</h3>
+        <p>(open from Monday to Saturday from 10AM-6PM):</p>
+        <a href="tel:+910000000000">+91 00000 00000</a>
+        <h3>Email:</h3>
+        <a href="mailto:hello@talmeconnects.com">hello@talmeconnects.com</a>
+        <a href="mailto:careers@talmeconnects.com">careers@talmeconnects.com</a>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About Us</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="services.html">Services</a>
+        <a href="careers.html">Careers</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
