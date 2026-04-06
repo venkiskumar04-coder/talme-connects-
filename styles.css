@@ -1981,7 +1981,7 @@ img {
   }
 
   .hero-visual {
-    min-height: 320px;
+    min-height: auto;
   }
 
   .hero-actions,
@@ -2009,14 +2009,29 @@ img {
   }
 
   .portrait-card {
-    inset: 10px 0 0;
+    position: relative;
+    inset: auto;
     border-radius: 42px;
+    aspect-ratio: 0.9 / 1.15;
+  }
+
+  .portrait-card img {
+    object-position: center top;
+  }
+
+  .hero-visual {
+    display: grid;
+    gap: 12px;
   }
 
   .floating-note {
     position: static;
     max-width: none;
-    margin-top: 12px;
+    margin-top: 0;
+    border-radius: 18px;
+    padding: 12px 16px;
+    font-size: 0.88rem;
+    line-height: 1.4;
   }
 
   .site-footer {
