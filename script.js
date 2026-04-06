@@ -1,5 +1,13 @@
 const navLinks = document.querySelectorAll(".site-nav a");
-const currentPath = window.location.pathname.split("/").pop() || "index.html";
+const normalizePath = (path) => {
+  if (!path || path === "/" || path === "/index.html" || path === "index.html") {
+    return "/";
+  }
+
+  return path.startsWith("/") ? path : `/${path}`;
+};
+
+const currentPath = normalizePath(window.location.pathname);
 const currentHash = window.location.hash;
 
 if ("scrollRestoration" in history) {
@@ -14,12 +22,12 @@ window.addEventListener("load", () => {
 
 navLinks.forEach((link) => {
   const href = link.getAttribute("href") || "";
-  const hrefPath = href.split("#")[0] || "index.html";
+  const hrefPath = normalizePath(href.split("#")[0]);
   const hrefHash = href.includes("#") ? `#${href.split("#")[1]}` : "";
 
   if (
-    (hrefPath === currentPath || (currentPath === "" && hrefPath === "index.html")) &&
-    (!currentHash || hrefHash === currentHash || (hrefPath === "index.html" && hrefHash === ""))
+    hrefPath === currentPath &&
+    (!currentHash || hrefHash === currentHash || (hrefPath === "/" && hrefHash === ""))
   ) {
     navLinks.forEach((item) => item.classList.remove("active"));
     link.classList.add("active");
