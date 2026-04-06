@@ -68,7 +68,7 @@ function startServer(port) {
       throw error;
     })
     .listen(port, host, () => {
-      console.log(`Talme Connects site running at http://${host}:${port}`);
+      console.log(`Talme Companions site running at http://${host}:${port}`);
     });
 }
 
