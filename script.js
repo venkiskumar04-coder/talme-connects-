@@ -10,6 +10,11 @@ const normalizePath = (path) => {
 const currentPath = normalizePath(window.location.pathname);
 const currentHash = window.location.hash;
 
+if (window.location.pathname.endsWith("/index.html") || window.location.pathname === "/index.html") {
+  const target = `/${window.location.hash || ""}`;
+  window.location.replace(target);
+}
+
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
 }
