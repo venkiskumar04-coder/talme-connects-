@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Talme Companions">
+  <rect width="256" height="256" rx="28" fill="#ffffff"/>
+  <g fill="none" stroke="#2842a4" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M92 22h72v22h-18v112"/>
+    <path d="M114 44v112"/>
+    <path d="M54 44h38v28h22v28H54z"/>
+    <path d="M202 44h-38v28h-22v28h60z"/>
+    <path d="M104 154h54v60h-54z"/>
+    <path d="M116 184h24v14h-24z"/>
+  </g>
+  <text
+    x="128"
+    y="232"
+    text-anchor="middle"
+    font-family="Manrope, Arial, sans-serif"
+    font-size="20"
+    letter-spacing="2"
+    fill="#2842a4"
+    font-weight="700"
+  >
+    TALME
+  </text>
+</svg>
