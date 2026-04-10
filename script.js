@@ -101,3 +101,32 @@ if (consultationForm) {
     }
   });
 }
+
+const currencyToggle = document.querySelector("[data-currency-toggle]");
+
+if (currencyToggle) {
+  const currencyLabel = document.querySelector("[data-currency-label]");
+  const priceNodes = document.querySelectorAll("[data-price-usd]");
+  let activeCurrency = "usd";
+
+  const renderCurrency = (currency) => {
+    const targetPriceKey = currency === "usd" ? "priceUsd" : "priceInr";
+
+    priceNodes.forEach((node) => {
+      node.textContent = node.dataset[targetPriceKey];
+    });
+
+    if (currencyLabel) {
+      currencyLabel.textContent = currency.toUpperCase();
+    }
+
+    currencyToggle.textContent = currency === "usd" ? "Convert to INR" : "Show in USD";
+    activeCurrency = currency;
+  };
+
+  currencyToggle.addEventListener("click", () => {
+    renderCurrency(activeCurrency === "usd" ? "inr" : "usd");
+  });
+
+  renderCurrency("usd");
+}

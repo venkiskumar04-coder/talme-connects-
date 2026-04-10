@@ -138,7 +138,7 @@ img {
   line-height: 1;
   letter-spacing: 0.34em;
   text-transform: uppercase;
-  color: rgba(171, 99, 73, 0.86);
+  color: #1f1a17;
   font-weight: 700;
 }
 
@@ -826,6 +826,17 @@ img {
   color: var(--accent);
 }
 
+.footer-subtitle {
+  margin: 8px 0 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.82rem;
+  line-height: 1;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #1f1a17;
+  font-weight: 700;
+}
+
 .footer-contact h3 {
   margin: 0 0 12px;
   font-size: 1rem;
@@ -1258,6 +1269,26 @@ img {
   padding: 34px 0 20px;
 }
 
+.pricing-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.pricing-toolbar-note,
+.pricing-disclaimer,
+.pricing-tax-note {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.pricing-toggle {
+  flex: 0 0 auto;
+}
+
 .activity-grid,
 .pricing-grid {
   display: grid;
@@ -1289,7 +1320,7 @@ img {
 }
 
 .pricing-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: stretch;
 }
 
@@ -1320,8 +1351,50 @@ img {
   color: var(--sage);
 }
 
+.pricing-tax-note {
+  margin-top: -8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
 .pricing-points {
   flex: 1;
+}
+
+.pricing-disclaimer {
+  margin-top: 18px;
+  font-size: 0.95rem;
+}
+
+.plans-addons {
+  margin-top: 28px;
+}
+
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.addon-card {
+  padding: 24px;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.addon-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: var(--sage);
+}
+
+.addon-card p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--ink);
 }
 
 .plans-note-card {
@@ -2030,8 +2103,14 @@ img {
 
   .activity-grid,
   .pricing-grid,
-  .plans-hero {
+  .plans-hero,
+  .addons-grid {
     grid-template-columns: 1fr;
+  }
+
+  .pricing-toolbar {
+    display: grid;
+    justify-content: stretch;
   }
 
   .onboarding-steps {
